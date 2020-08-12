@@ -1,0 +1,13 @@
+# This is a comment
+prefix=C:/Users/coast/OneDrive/Documents/Code/vcpkg/packages/curlpp_x64-windows
+exec_prefix=C:/Users/coast/OneDrive/Documents/Code/vcpkg/packages/curlpp_x64-windows
+includedir=include
+
+Name: curlpp
+Description: cURLpp is a libcurl C++ wrapper
+Version:                            
+Libs: -Llib -lcurlpp /machine:x64 
+Cflags: -Iinclude 
+# libcurl is required as non-private because CurlHandle.inl uses curl_easy_setopt.
+Requires: libcurl
+ 
