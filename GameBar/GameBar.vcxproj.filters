@@ -29,14 +29,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="left.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="right.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -48,8 +40,59 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="OpenSans-Regular.ttf">
+    <None Include="left.png">
       <Filter>Resource Files</Filter>
-    </Font>
+    </None>
+    <None Include="OpenSans-Regular.ttf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="brotlicommon.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="brotlidec.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="brotlienc.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bz2.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="curlpp.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="freetype.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="jpeg62.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="jsoncpp.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="libcurl.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="libpng16.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SDL2.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SDL2_image.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SDL2_ttf.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="turbojpeg.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="zlib1.dll">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
