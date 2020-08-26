@@ -138,7 +138,6 @@ bool Game::load() {
 		std::cout << "image " << imgFilename << " failed to load" << std::endl;
 		return false;
 	}
-	std::cout << "loaded texture for game " << std::to_string(uuid) << std::endl;
 	loaded = true;
 	return true;
 }
